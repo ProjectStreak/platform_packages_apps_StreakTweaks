@@ -32,4 +32,9 @@
         android:summary="@string/show_fourg_icon_summary"
         android:defaultValue="false"/>
 
+    <Preference
+        android:key="traffic"
+        android:title="@string/traffic_title"
+        android:fragment="com.streak.tweaks.fragments.Traffic"
+        android:icon="@drawable/ic_traffic" />
 </PreferenceScreen>
