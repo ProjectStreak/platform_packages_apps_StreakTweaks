@@ -63,4 +63,10 @@
     <!-- Keyguard force small clock -->
     <string name="lockscreen_small_clock_title">Force small clock</string>
     <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="traffic_title">Traffic Indicators</string>
+    <string name="network_traffic_state_title">Network traffic</string>
+    <string name="network_traffic_state_summary">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 </resources>
