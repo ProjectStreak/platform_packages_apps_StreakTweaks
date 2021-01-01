@@ -145,180 +145,180 @@
 
     <!-- Power menu on lockscreen -->
     <string name="power_menu_hide_on_secure_title">锁屏时隐藏</string>
-    <string name="power_menu_hide_on_secure_summary">当有安全选项锁屏时隐藏菜单1</string>
+    <string name="power_menu_hide_on_secure_summary">当有安全选项锁屏时隐藏菜单</string>
 
     <!-- Heads up options -->
-    <string name="less_boring_heads_up_title">Less boring heads up</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for dialer, messaging and alarm app</string>
+    <string name="less_boring_heads_up_title">减少恼人的通知</string>
+    <string name="less_boring_heads_up_summary">仅显示电话、消息和闹钟的通知</string>
 
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads Up</string>
-    <string name="heads_up_summary">Customize Heads Up Behavior</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="heads_up_notifications">通知</string>
+    <string name="heads_up_summary">自定义通知行为</string>
+    <string name="summary_heads_up_enabled">已启用弹出通知</string>
+    <string name="summary_heads_up_disabled">弹出通知被禁用</string>
+    <string name="add_heads_up_package">添加应用程序</string>
+    <string name="add_heads_up_stoplist_summary">在这些应用程序中禁用提示通知</string>
+    <string name="add_heads_up_blacklist_summary">禁用这些应用程序的提示</string>
+    <string name="heads_up_stoplist_title">非索引字表</string>
+    <string name="heads_up_blacklist_title">黑名单</string>
+    <string name="profile_choose_app">选择应用程序</string>
+    <string name="dialog_delete_title">删除</string>
+    <string name="dialog_delete_message">删除所选项？</string>
 
     <!-- Double Tap Statusbar to Sleep -->
-    <string name="double_tap_to_sleep_statusbar_title">Double tap to sleep on statusbar</string>
-    <string name="double_tap_to_sleep_statusbar_summary">Do not use it with statusbar brightness control</string>
+    <string name="double_tap_to_sleep_statusbar_title">双击状态栏睡眠</string>
+    <string name="double_tap_to_sleep_statusbar_summary">请勿将其与状态栏亮度控制一起使用</string>
 
     <!--Double Tap to Sleep Lockscreen-->
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
-    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on lockscreen to put the device to sleep</string>
+    <string name="double_tap_sleep_lockscreen_title">双击锁定屏幕睡眠</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">双击锁屏使设备进入睡眠状态</string>
 
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">音量键</string>
+    <string name="volume_rocker_wake_summary">按音量键将唤醒您的设备</string>
 
     <!-- Hardware keys -->
-    <string name="hardware_keys_category">Hardware keys</string>
+    <string name="hardware_keys_category">硬件密钥</string>
 
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
+    <string name="backlight_timeout_title">按钮背光超时</string>
+    <string name="backlight_timeout_on">始终启用</string>
+    <string name="backlight_timeout_3s">3秒</string>
+    <string name="backlight_timeout_default">5秒（默认）</string>
+    <string name="backlight_timeout_10s">10秒</string>
+    <string name="backlight_timeout_15s">15秒</string>
+    <string name="backlight_timeout_20s">20秒</string>
+    <string name="backlight_timeout_30s">30秒</string>
 
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Backlight</string>
+    <string name="button_brightness_title">背光</string>
 
     <!-- Enable keys backlight-->
-    <string name="button_brightness_sw_title">Enable backlight</string>
-    <string name="button_backlight_on_touch_only_title">Button touch</string>
-    <string name="button_backlight_on_touch_only_summary">Enable backlight with timeout only on button touch</string>
+    <string name="button_brightness_sw_title">启用背光</string>
+    <string name="button_backlight_on_touch_only_title">按钮触摸</string>
+    <string name="button_backlight_on_touch_only_summary">仅在按钮触摸时启用带超时的背光</string>
 
     <!-- HW Keys customization -->
-    <string name="action_value_default_action" translatable="false">default</string>
-    <string name="action_value_select_app" translatable="false">app</string>
-    <string name="action_value_custom_action" translatable="false">custom</string>
-    <string name="action_value_back" translatable="false">task_back</string>
-    <string name="action_value_home" translatable="false">task_home</string>
-    <string name="action_value_search_assist" translatable="false">task_assist</string>
-    <string name="action_value_recent_apps" translatable="false">task_recents</string>
-    <string name="action_value_voice_search" translatable="false">task_voice_search</string>
-    <string name="action_value_menu" translatable="false">task_menu</string>
-    <string name="picker_activities">Activities</string>
-    <string name="select_custom_app_title">Select custom app</string>
-    <string name="select_custom_activity_title">Select custom activity</string>
-    <string name="profile_applist_title">Applications</string>
-    <string name="choose_action_title">Choose action</string>
-    <string name="action_entry_default_action">Default settings</string>
-    <string name="action_entry_select_app">Select application</string>
-    <string name="action_entry_custom_action">Select custom action</string>
-    <string name="hardware_keys_home_key_title">Home button</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
-    <string name="hardware_keys_assist_key_title">Search button</string>
-    <string name="hardware_keys_appswitch_key_title">Overview button</string>
-    <string name="hardware_keys_back_key_title">Back button</string>
-    <string name="hardware_keys_double_tap_summary">Set double tap action</string>
-    <string name="hardware_keys_single_tap_summary">Set single tap action</string>
-    <string name="hardware_keys_long_press_summary">Set long press action</string>
-    <string name="hardware_keys_single_tap_title">Single tap action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
-    <string name="hardware_keys_disable_title">Disable keys</string>
+    <string name="action_value_default_action" translatable="false">默认</string>
+    <string name="action_value_select_app" translatable="false">应用程序</string>
+    <string name="action_value_custom_action" translatable="false">自定义</string>
+    <string name="action_value_back" translatable="false">任务\返回</string>
+    <string name="action_value_home" translatable="false">任务\主页</string>
+    <string name="action_value_search_assist" translatable="false">任务\协助</string>
+    <string name="action_value_recent_apps" translatable="false">任务摘要</string>
+    <string name="action_value_voice_search" translatable="false">任务语音搜索</string>
+    <string name="action_value_menu" translatable="false">任务菜单</string>
+    <string name="picker_activities">活动</string>
+    <string name="select_custom_app_title">选择自定义应用程序</string>
+    <string name="select_custom_activity_title">选择自定义活动</string>
+    <string name="profile_applist_title">应用</string>
+    <string name="choose_action_title">选择操作</string>
+    <string name="action_entry_default_action">默认设置</string>
+    <string name="action_entry_select_app">选择应用程序</string>
+    <string name="action_entry_custom_action">选择自定义操作</string>
+    <string name="hardware_keys_home_key_title">主页按钮</string>
+    <string name="hardware_keys_menu_key_title">菜单按钮</string>
+    <string name="hardware_keys_assist_key_title">搜索按钮</string>
+    <string name="hardware_keys_appswitch_key_title">“概述”按钮</string>
+    <string name="hardware_keys_back_key_title">后退按钮</string>
+    <string name="hardware_keys_double_tap_summary">设置双击操作</string>
+    <string name="hardware_keys_single_tap_summary">设置单击操作</string>
+    <string name="hardware_keys_long_press_summary">设置长按操作</string>
+    <string name="hardware_keys_single_tap_title">单击动作</string>
+    <string name="hardware_keys_long_press_title">长按动作</string>
+    <string name="hardware_keys_double_tap_title">双击动作</string>
+    <string name="hardware_keys_disable_title">禁用密钥</string>
 
     <!-- Status bar brightness control -->
-    <string name="status_bar_brightness_control_title">Brightness control</string>
-    <string name="status_bar_brightness_control_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_brightness_control_title">亮度控制</string>
+    <string name="status_bar_brightness_control_summary">通过滑动状态栏调整亮度</string>
 
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Home button when ringing</string>
-    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
+    <string name="allow_incall_home_title">响铃时的主页按钮</string>
+    <string name="allow_incall_home_summary">设备响铃时允许使用“主页”按钮</string>
 
     <!-- Transparent lockscreen notifications -->
-    <string name="transparent_lockscreen_notification_title">Transparent notifications</string>
-    <string name="transparent_lockscreen_notification_summary">Enable lockscreen notifications with semi-transparent backgrounds</string>
+    <string name="transparent_lockscreen_notification_title">透明通知</string>
+    <string name="transparent_lockscreen_notification_summary">启用具有半透明背景的锁屏通知</string>
 
     <!-- Fingerprint authentication vibration error -->
-    <string name="fprint_error_vib_title">Fingerprint error vibration</string>
-    <string name="fprint_error_vib_summary">Vibrate on error fingerprint authentication</string>
+    <string name="fprint_error_vib_title">指纹错误振动</string>
+    <string name="fprint_error_vib_summary">指纹认证错误时振动</string>
 
     <!-- Wakeup options -->
-    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
+    <string name="wakeup_when_plugged_unplugged_title">充电唤醒</string>
+    <string name="wakeup_when_plugged_unplugged_summary">如果充电器已插入/拔出，则唤醒设备。</string>
 
     <!-- FOD animation -->
-    <string name="fod_recognizing_animation_title">Recognizing animation</string>
-    <string name="fod_recognizing_animation_summary">Show an animation while reading your fingerprint</string>
+    <string name="fod_recognizing_animation_title">识别动画</string>
+    <string name="fod_recognizing_animation_summary">读取指纹时显示动画</string>
 
     <!-- SmartSpace -->
-    <string name="smart_space_title">SmartSpace</string>
-    <string name="smart_space_summary">Display conditional info such as weather and events on lockscreen\nRequires a SystemUI restart</string>
+    <string name="smart_space_title">智能空间</string>
+    <string name="smart_space_summary">在锁屏上显示条件信息，如天气和事件\n需要重新启动SystemUI</string>
 
     <!-- Battery Styles -->
-    <string name="battery_percent_title">Statusbar battery indicator</string>
-    <string name="battery_percent_summary">Configure icon and text styles for the statusbar battery indicator</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Dotted circle</string>
-    <string name="status_bar_battery_style_filled_circle">Filled circle</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="battery_percent_title">电池指示</string>
+    <string name="battery_percent_summary">配置电池指示器的图标和文本样式</string>
+    <string name="status_bar_battery_style_title">电池类型</string>
+    <string name="status_bar_battery_style_icon_portrait">图标纵向</string>
+    <string name="status_bar_battery_style_circle">圆形</string>
+    <string name="status_bar_battery_style_dotted_circle">点圆</string>
+    <string name="status_bar_battery_style_filled_circle">实心圆</string>
+    <string name="status_bar_battery_style_text">文本</string>
+    <string name="status_bar_battery_style_hidden">隐藏</string>
+    <string name="status_bar_battery_percentage_title">电池百分比</string>
+    <string name="status_bar_battery_percentage_default">隐藏</string>
+    <string name="status_bar_battery_percentage_text_inside">在图标内</string>
+    <string name="status_bar_battery_percentage_text_next">图标旁边</string>
+    <string name="qs_battery_percentage_title">Qs电池百分比</string>
+    <string name="qs_battery_percentage_summary">在qs标题中显示电池百分比，而不是电池估计</string>
 
     <!-- AOSP Gestures -->
-    <string name="aosp_gesture_title">AOSP Gestures Settings</string>
+    <string name="aosp_gesture_title">AOSP手势设置</string>
 	
     <!-- QS Panel Tint -->	
-    <string name="qs_bg_use_new_tint">QS tile colors</string>
-    <string name="qs_bg_use_new_tint_summary">Use accent color for qs tile icons and background</string>
+    <string name="qs_bg_use_new_tint">QS瓷砖颜色</string>
+    <string name="qs_bg_use_new_tint_summary">对qs平铺图标和背景使用强调色</string>
 
     <!-- Notification headers -->
-    <string name="notification_headers_title">Notification Headers</string>
-    <string name="notification_headers_summary">Show headers in the notification shade\nRequires a SystemUI restart</string>
+    <string name="notification_headers_title">通知头</string>
+    <string name="notification_headers_summary">在通知阴影中显示标题\n需要重新启动SystemUI</string>
 
     <!-- Center notification headers -->
-    <string name="center_notification_headers_title">Center notification headers</string>
-    <string name="center_notification_headers_summary">Whether to Center notification headers (Requires a SystemUI restart)</string>
+    <string name="center_notification_headers_title">通知标题居中</string>
+    <string name="center_notification_headers_summary">是否将通知居中（需要重新启动SystemUI）</string>
 
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Brightness slider</string>
-    <string name="qs_show_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
-    <string name="qs_show_auto_brightness_title">Autobrightness icon</string>
-    <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
-    <string name="qs_show_brightness_slider_show_never">Never show</string>
-    <string name="qs_show_brightness_slider_show_expanded">Show when expanded</string>
-    <string name="qs_show_brightness_slider_show_always">Show always</string>
+    <string name="qs_show_brightness_slider_title">亮度滑块</string>
+    <string name="qs_show_brightness_slider_summary">在“快速设置”面板中显示亮度滑块</string>
+    <string name="qs_show_auto_brightness_title">自动右键图标</string>
+    <string name="qs_show_auto_brightness_summary">在滑块附近显示自适应亮度的切换</string>
+    <string name="qs_show_brightness_slider_show_never">从不显示</string>
+    <string name="qs_show_brightness_slider_show_expanded">展开时显示</string>
+    <string name="qs_show_brightness_slider_show_always">始终显示</string>
 
     <!-- FOD animations -->
-    <string name="fod_recog_animation_effect_title">Select fingerprint animation effect</string>
-    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
-    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
-    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
-    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
-    <string name="fod_recog_animation_op_energy">Energy</string>
-    <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_ripple">Ripple</string>
-    <string name="fod_recog_animation_op_stripe">Stripe</string>
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
-    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
+    <string name="fod_recog_animation_effect_title">选择指纹动画效果</string>
+    <string name="fod_recog_animation_miui_aurora">极光（K30 Pro）</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Aurora（小米10 Ultra）</string>
+    <string name="fod_recog_animation_miui_star_cas">星光</string>
+    <string name="fod_recog_animation_op_cosmos">宇宙</string>
+    <string name="fod_recog_animation_op_energy">能量</string>
+    <string name="fod_recog_animation_op_mclaren">迈凯轮</string>
+    <string name="fod_recog_animation_op_ripple">涟漪</string>
+    <string name="fod_recog_animation_op_stripe">条纹</string>
+    <string name="fod_recog_animation_pureview_molecular">分子</string>
+    <string name="fod_recog_animation_rog_pulsar">脉冲星</string>
 
     <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Snooze timer</string>
-    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-    <string name="heads_up_snooze_1min">1 minute</string>
-    <string name="heads_up_snooze_5min">5 minutes</string>
-    <string name="heads_up_snooze_10min">10 minutes</string>
-    <string name="heads_up_snooze_15min">15 minutes</string>
-    <string name="heads_up_snooze_20min">20 minutes</string>
+    <string name="heads_up_snooze_title">打盹计时器</string>
+    <string name="heads_up_snooze_summary_one_minute">向上滑动查看通知将使该应用程序的通知暂停1分钟。</string>
+    <string name="heads_up_snooze_summary">向上滑动查看通知将使该应用程序的通知暂停<xliff:g id="number">%d</xliff:g> minutes</string>
+    <string name="heads_up_snooze_disabled_summary">已禁用休眠计时器</string>
+    <string name="heads_up_snooze_1min">1分钟</string>
+    <string name="heads_up_snooze_5min">5分钟</string>
+    <string name="heads_up_snooze_10min">10分钟</string>
+    <string name="heads_up_snooze_15min">15分钟</string>
+    <string name="heads_up_snooze_20min">20分钟</string>
 </resources>
