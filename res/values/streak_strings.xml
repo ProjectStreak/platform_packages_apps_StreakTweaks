@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Streak Tweaks title -->
+    <string name="streak_tweaks_title">Streak Tweaks</string>
+
+    <!-- Categories -->
+    <string name="themes_title">Themes</string>
+    <string name="statusbar_title">Statusbar</string>
+    <string name="lockscreen_title">Lockscreen</string>
+    <string name="misc_title">Miscellaneous</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+</resources>
