@@ -17,6 +17,7 @@
     <!-- Categories -->
     <string name="themes_title">Themes</string>
     <string name="statusbar_title">Statusbar</string>
+    <string name="lockscreen_title">Lockscreen</string>
     <string name="misc_title">Miscellaneous</string>
 
     <!-- General strings -->

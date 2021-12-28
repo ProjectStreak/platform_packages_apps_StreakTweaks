@@ -17,7 +17,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/streak_tweaks_title" >
 
-    <!-- Themes -->
+        <!-- Themes -->
         <Preference
             android:key="themes_category"
             android:title="@string/themes_title"
@@ -30,6 +30,13 @@
             android:title="@string/statusbar_title" 
             android:fragment="com.streak.tweaks.fragments.StatusBarSettings"
             android:icon="@drawable/ic_settings_statusbar"/>
+
+        <!-- Lockscreen -->
+        <Preference
+            android:key="lockscreen_category"
+            android:title="@string/lockscreen_title"
+            android:fragment="com.streak.tweaks.fragments.LockscreenSettings"
+            android:icon="@drawable/ic_settings_lockscreen"/>
 
         <!-- Misc -->
         <Preference
