@@ -32,5 +32,11 @@
         android:key="pitch_theme"
         android:summary="@string/pitch_colors_summary"/>
 
+   <com.streak.support.preferences.SystemSettingSwitchPreference
+        android:key="monet_plain_theme" 
+        android:title="@string/plain_colors"
+        android:summary="@string/plain_colors_summary"
+        android:defaultValue="false"/>
+
 
 </PreferenceScreen>
