@@ -27,5 +27,10 @@
        android:key="android.theme.customization.adaptive_icon_shape"
        android:title="@string/theme_customization_adaptive_title"/>
 
+   <SwitchPreference
+        android:title="@string/pitch_colors"
+        android:key="pitch_theme"
+        android:summary="@string/pitch_colors_summary"/>
+
 
 </PreferenceScreen>

@@ -54,4 +54,7 @@
     <!-- Advanced reboot  -->
     <string name="advanced_reboot_title">Advanced reboot</string>
     <string name="advanced_reboot_summary">Allow rebooting to recovery and bootloader</string>
+
+    <string name="pitch_colors">Pitch black system theme</string>
+    <string name="pitch_colors_summary">Pitch black theme for Settings, SystemUI, etc. (BETA! NOT EVERYTHING IS PERFECT!)</string>
 </resources>

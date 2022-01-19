@@ -38,10 +38,17 @@ import com.android.settings.development.OverlayCategoryPreferenceController;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 
+
+import android.content.om.IOverlayManager;
+import android.os.RemoteException;
+import android.os.ServiceManager;
+
 public class ThemesSettings extends DashboardFragment implements
         OnPreferenceChangeListener {
 
     public static final String TAG = "ThemesSettings";
+    private SwitchPreference mPitchPreference;
+    IOverlayManager mOverlayManager;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -49,13 +56,41 @@ public class ThemesSettings extends DashboardFragment implements
     }
 
     @Override
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        super.onCreatePreferences(savedInstanceState, rootKey);
+        mOverlayManager = IOverlayManager.Stub.asInterface(ServiceManager.getService("overlay"));
+        mPitchPreference = findPreference("pitch_theme");
+        try {
+            mPitchPreference.setChecked(mOverlayManager.getOverlayInfo("com.radiant.pitchsystem", UserHandle.USER_CURRENT).isEnabled());
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
+        mPitchPreference.setOnPreferenceChangeListener(this);
+    }
+
+
+    @Override
     protected int getPreferenceScreenResId() {
         return R.xml.streak_tweaks_themes;
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mPitchPreference) {
+            setOverlay("com.radiant.pitchsystem", (Boolean) newValue);
+            setOverlay("com.radiant.pitchsettings", (Boolean) newValue);
+            setOverlay("com.radiant.pitchsystemui", (Boolean) newValue);
+            return true;
+        }
         return false;
+    }
+
+    private void setOverlay(String overlay, boolean status) {
+        try {
+            mOverlayManager.setEnabled(overlay, status, UserHandle.USER_CURRENT);
+        } catch (RemoteException | IllegalStateException | SecurityException e) {
+            e.printStackTrace();
+        }
     }
 
     protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
@@ -70,7 +105,7 @@ public class ThemesSettings extends DashboardFragment implements
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.icon_pack"));
         controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.adaptive_icon_shape"));
+                "android.theme.customization.adaptive_icon_shape "));
         return controllers;
     }
 
