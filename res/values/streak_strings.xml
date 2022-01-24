@@ -60,4 +60,7 @@
     <string name="plain_colors">Plain colors</string>
     <string name="plain_colors_summary">Use plain hardcoded colors for Monet theme extracted by setting saturation to 0</string>
 
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Force small clock</string>
+    <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
 </resources>
