@@ -12,7 +12,7 @@
 -->
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android"
-	android:title="@string/themes_title"
+        android:title="@string/themes_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <ListPreference
@@ -22,10 +22,6 @@
     <ListPreference
        android:key="android.theme.customization.icon_pack"
        android:title="@string/theme_customization_icon_pack_title"/>
-
-    <ListPreference
-       android:key="android.theme.customization.adaptive_icon_shape"
-       android:title="@string/theme_customization_adaptive_title"/>
 
    <SwitchPreference
         android:title="@string/pitch_colors"
@@ -37,6 +33,4 @@
         android:title="@string/plain_colors"
         android:summary="@string/plain_colors_summary"
         android:defaultValue="false"/>
-
-
 </PreferenceScreen>
