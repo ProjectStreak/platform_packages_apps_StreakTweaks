@@ -70,7 +70,7 @@ public class ThemesSettings extends DashboardFragment implements
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.icon_pack"));
         controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.adaptive_icon_shape "));
+                "android.theme.customization.adaptive_icon_shape"));
         return controllers;
     }
 
