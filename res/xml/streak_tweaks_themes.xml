@@ -27,6 +27,12 @@
        android:key="android.theme.customization.adaptive_icon_shape"
        android:title="@string/theme_customization_adaptive_title"/>
 
+   
+   <SwitchPreference
+        android:title="@string/a11_qs"
+        android:key="a11qs"
+        android:summary="@string/a11_qs_summary"/>
+
     <Preference
         android:key="monet"
         android:title="@string/monet_title"

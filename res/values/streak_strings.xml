@@ -84,4 +84,8 @@
     <string name="show_network_traffic_down">Download</string>
     <string name="show_network_traffic_all">Both</string>
     <string name="nettraf_font_size">Single net font size</string>
+
+    <string name="a11_qs">Android 11 QS</string>
+    <string name="a11_qs_summary">Android 11 Quick Settings Style</string>
+
 </resources>
