@@ -15,14 +15,34 @@
         android:title="@string/monet_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-   <SwitchPreference
-        android:title="@string/pitch_colors"
-        android:key="pitch_theme"
-        android:summary="@string/pitch_colors_summary"/>
-
-   <com.streak.support.preferences.SystemSettingSwitchPreference
-        android:key="monet_plain_theme"
-        android:title="@string/plain_colors"
-        android:summary="@string/plain_colors_summary"
+    <com.streak.support.preferences.SystemSettingSwitchPreference
+        android:key="monet_custom_themes"
+        android:title="@string/monet_custom_colors"
+        android:summary="@string/monet_custom_colors_summary"
+        android:icon="@drawable/ic_monet_colors"
         android:defaultValue="false"/>
+
+    <com.streak.support.preferences.SystemSettingSwitchPreference
+        android:key="monet_plain_theme"
+        android:title="@string/monet_plain_colors"
+        android:summary="@string/monet_plain_colors_summary"
+        android:icon="@drawable/ic_monet_plain"
+        android:dependency="monet_custom_themes"
+        android:defaultValue="false"/>
+
+    <SwitchPreference
+        android:key="pitch_theme"
+        android:title="@string/monet_pitch_colors"
+        android:summary="@string/monet_pitch_colors_summary"
+        android:icon="@drawable/ic_monet_pitch"
+        android:dependency="monet_custom_themes"
+        android:defaultValue="false"/>
+
+    <Preference
+        android:key="monet_wall"
+        android:title="@string/monet_wall"
+        android:summary="@string/monet_wall_summary"
+        android:icon="@drawable/ic_monet_wall"
+        android:dependency="monet_custom_themes"
+        settings:controller="com.streak.tweaks.fragments.StreakColorPreferenceController"/>
 </PreferenceScreen>
