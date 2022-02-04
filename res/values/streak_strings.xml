@@ -57,10 +57,15 @@
 
     <!-- Monet -->
     <string name="monet_title">Monet settings</string>
-    <string name="pitch_colors">Pitch black system theme</string>
-    <string name="pitch_colors_summary">Pitch black theme for Settings, SystemUI, etc. (BETA! NOT EVERYTHING IS PERFECT!)</string>
-    <string name="plain_colors">Plain colors</string>
-    <string name="plain_colors_summary">Use plain hardcoded colors for Monet theme extracted by setting saturation to 0</string>
+    <string name="monet_summary">Customise Monet</string>
+    <string name="monet_custom_colors">Custom Monet settings</string>
+    <string name="monet_custom_colors_summary">Enable settings to customise Monet themes</string>
+    <string name="monet_plain_colors">Plain colors</string>
+    <string name="monet_plain_colors_summary">Use plain hardcoded colors for Monet theme extracted by setting saturation to 0</string>
+    <string name="monet_pitch_colors">Pitch black system theme</string>
+    <string name="monet_pitch_colors_summary">Pitch black theme for Settings, SystemUI, etc. (BETA! NOT EVERYTHING IS PERFECT!)</string>
+    <string name="monet_wall">Pick base color from wallpaper</string>
+    <string name="monet_wall_summary">Opens a picker that lets you select a custom point from wallpaper as base color</string>
 
     <!-- Keyguard force small clock -->
     <string name="lockscreen_small_clock_title">Force small clock</string>
