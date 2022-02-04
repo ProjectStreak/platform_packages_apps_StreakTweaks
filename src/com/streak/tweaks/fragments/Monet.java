@@ -20,18 +20,23 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.Preference.OnPreferenceClickListener;
 import androidx.preference.SwitchPreference;
 import android.provider.Settings;
 import com.android.settings.R;
+import com.streak.settings.color.WallpaperColorActivity;
+import android.content.Intent;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import android.util.Log;
 
 import com.android.settings.SettingsPreferenceFragment;
 
 public class Monet extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener {
+        OnPreferenceChangeListener, OnPreferenceClickListener {
 
+    private Preference mWallPreference;
     private SwitchPreference mPitchPreference;
     IOverlayManager mOverlayManager;
 
@@ -50,12 +55,14 @@ public class Monet extends SettingsPreferenceFragment implements
         super.onCreatePreferences(savedInstanceState, rootKey);
         mOverlayManager = IOverlayManager.Stub.asInterface(ServiceManager.getService("overlay"));
         mPitchPreference = findPreference("pitch_theme");
+        mWallPreference = findPreference("monet_wall");
         try {
             mPitchPreference.setChecked(mOverlayManager.getOverlayInfo("com.radiant.pitchsystem", UserHandle.USER_CURRENT).isEnabled());
         } catch (RemoteException e) {
             e.printStackTrace();
         }
         mPitchPreference.setOnPreferenceChangeListener(this);
+        mWallPreference.setOnPreferenceClickListener(this);
     }
 
     @Override
@@ -64,6 +71,16 @@ public class Monet extends SettingsPreferenceFragment implements
             setOverlay("com.radiant.pitchsystem", (Boolean) newValue);
             setOverlay("com.radiant.pitchsettings", (Boolean) newValue);
             setOverlay("com.radiant.pitchsystemui", (Boolean) newValue);
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public boolean onPreferenceClick(Preference preference) {
+        if(preference == mWallPreference){
+            Intent intent = new Intent(getActivity(), WallpaperColorActivity.class);
+            getActivity().startActivity(intent);
             return true;
         }
         return false;

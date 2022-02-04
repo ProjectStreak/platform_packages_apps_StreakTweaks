@@ -12,7 +12,7 @@
 -->
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android"
-	android:title="@string/themes_title"
+        android:title="@string/themes_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <ListPreference
@@ -30,5 +30,6 @@
     <Preference
         android:key="monet"
         android:title="@string/monet_title"
+        android:summary="@string/monet_summary"
         android:fragment="com.streak.tweaks.fragments.Monet" />
 </PreferenceScreen>
