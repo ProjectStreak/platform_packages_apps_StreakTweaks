@@ -15,17 +15,23 @@
         android:title="@string/themes_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <ListPreference
-       android:key="android.theme.customization.font"
-       android:title="@string/theme_customization_font_title"/>
+    <Preference
+        android:key="android.theme.customization.font"
+        android:title="@string/theme_customization_font_title"
+        android:summary="@string/theme_customization_font_summary"
+        android:fragment="com.streak.tweaks.fragments.FontsPicker"/>
 
-    <ListPreference
-       android:key="android.theme.customization.icon_pack"
-       android:title="@string/theme_customization_icon_pack_title"/>
+    <Preference
+        android:key="android.theme.customization.icon_pack"
+        android:title="@string/theme_customization_icon_pack_title"
+        android:summary="@string/theme_customization_icon_pack_summary"
+        android:fragment="com.streak.tweaks.fragments.StatusbarIcons"/>
 
-    <ListPreference
-       android:key="android.theme.customization.adaptive_icon_shape"
-       android:title="@string/theme_customization_adaptive_title"/>
+    <Preference
+        android:key="android.theme.customization.adaptive_icon_shape"
+        android:title="@string/theme_customization_icon_shape_title"
+        android:summary="@string/theme_customization_icon_shape_summary"
+        android:fragment="com.streak.tweaks.fragments.IconShapes"/>
 
     <Preference
         android:key="monet"

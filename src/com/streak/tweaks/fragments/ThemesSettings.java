@@ -58,22 +58,6 @@ public class ThemesSettings extends DashboardFragment implements
         return false;
     }
 
-    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
-        return buildPreferenceControllers(context, getSettingsLifecycle(), this);
-    }
-
-    private static List<AbstractPreferenceController> buildPreferenceControllers(
-            Context context, Lifecycle lifecycle, Fragment fragment) {
-        final List<AbstractPreferenceController> controllers = new ArrayList<>();
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.font"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.icon_pack"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.adaptive_icon_shape"));
-        return controllers;
-    }
-
     @Override
     protected String getLogTag() {
         return TAG;
