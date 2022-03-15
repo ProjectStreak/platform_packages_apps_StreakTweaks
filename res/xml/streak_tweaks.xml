@@ -25,13 +25,12 @@
         android:icon="@drawable/ic_settings_themes"/>
     -->
 
-    <!-- Statusbar
+    <!-- Statusbar -->
     <Preference
         android:key="statusbar_category"
         android:title="@string/statusbar_title" 
         android:fragment="com.streak.tweaks.fragments.StatusbarSettings"
         android:icon="@drawable/ic_settings_statusbar"/>
-    -->
 
     <!-- Lockscreen
     <Preference
