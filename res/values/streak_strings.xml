@@ -14,4 +14,9 @@
     <string name="reset">Reset</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
+
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons">Combined signal icons</string>
+    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar.\nRequires a SystemUI restart</string>
+
 </resources>
