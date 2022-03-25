@@ -17,13 +17,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/streak_tweaks_title" >
 
-    <!-- Themes
+    <!-- Themes -->
     <Preference
         android:key="themes_category"
         android:title="@string/themes_title"
         android:fragment="com.streak.tweaks.fragments.ThemesSettings"
         android:icon="@drawable/ic_settings_themes"/>
-    -->
 
     <!-- Statusbar -->
     <Preference
