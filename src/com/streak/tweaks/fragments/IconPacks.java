@@ -69,7 +69,7 @@ public class IconPacks extends SettingsPreferenceFragment {
 
     private RecyclerView mRecyclerView;
     private ThemeUtils mThemeUtils;
-    private String mCategory = "android.theme.customization.icon_pack.android";
+    private String mCategory = "android.theme.customization.icon_pack";
 
     private List<String> mPkgs;
 
