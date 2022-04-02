@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Streak Tweaks title -->
-    <string name="streak_tweaks_title">Streak Tweaks</string>
+    <string name="streak_tweaks_title" translatable="false">Streak Tweaks</string>
 
     <!-- Categories -->
     <string name="themes_title">Themes</string>
