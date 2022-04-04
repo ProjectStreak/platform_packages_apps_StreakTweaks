@@ -2,8 +2,22 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Streak Tweaks title -->
     <!-- Categories -->
+    <string name="themes_title">Tema</string>
+    <string name="statusbar_title">Status bar</string>
+    <string name="lockscreen_title">Layar kunci</string>
+    <string name="misc_title">Lain-lain</string>
     <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Batalkan</string>
+    <string name="save">Simpan</string>
     <!-- Statusbar items -->
+    <string name="statusbar_items_category">Item Statusbar</string>
     <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Gaya tulisan</string>
+    <string name="theme_customization_font_summary">Gunakan gaya tulisan sistem</string>
+    <string name="theme_customization_icon_pack_title">Paket Ikon</string>
+    <string name="theme_customization_icon_pack_summary">Pilih kustomisasi Icon Pack</string>
+    <string name="theme_customization_icon_shape_title">Bentuk icon</string>
     <!-- 4G icon -->
 </resources>
