@@ -20,4 +20,5 @@
     <string name="theme_customization_icon_pack_summary">Pilih kustomisasi Icon Pack</string>
     <string name="theme_customization_icon_shape_title">Bentuk icon</string>
     <!-- 4G icon -->
+    <!-- Statusbar net monitor -->
 </resources>
