@@ -23,4 +23,5 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Ikona 4G</string>
     <string name="show_fourg_icon_summary">Wyświetlaj ikonę 4G zamiast LTE</string>
+    <!-- Statusbar net monitor -->
 </resources>
