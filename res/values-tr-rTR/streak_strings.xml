@@ -5,10 +5,40 @@
     <string name="themes_title">Temalar</string>
     <string name="statusbar_title">Durum çubuğu</string>
     <string name="lockscreen_title">Kilit ekranı</string>
+    <string name="misc_title">Diğer Ayarlar</string>
     <!-- General strings -->
     <string name="ok">Tamam</string>
     <string name="reset">Sıfırla</string>
+    <string name="cancel">İptal</string>
+    <string name="save">Save</string>
     <!-- Statusbar items -->
+    <string name="statusbar_items_category">Durum çubuğu öğeleri</string>
     <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Yazı tipi stili</string>
+    <string name="theme_customization_font_summary">Sistem yazı tipi stili ayarlayın</string>
+    <string name="theme_customization_icon_pack_title">Simge paketi</string>
+    <string name="theme_customization_icon_pack_summary">Özel simge paketi stili ayarlayın</string>
+    <string name="theme_customization_icon_shape_title">Simge şekli</string>
+    <string name="theme_customization_icon_shape_summary">Sistem simge şeklini ayarlayın</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G simgesi</string>
+    <string name="show_fourg_icon_summary">LTE yerine 4G simgesini görüntüle</string>
+    <!-- Statusbar net monitor -->
+    <string name="traffic_title">Trafik göstergeleri</string>
+    <string name="network_traffic">Ağ trafiği</string>
+    <string name="network_traffic_state_title">Ağ etkinliği göstergesi</string>
+    <string name="network_traffic_location">Ağ göstergesi yerleşimi</string>
+    <string name="traffic_disabled">Kapalı</string>
+    <string name="traffic_statusbar">Durum çubuğu</string>
+    <string name="traffic_expanded_statusbar">Genişletilmiş başlık</string>
+    <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizlenme eşiği (KB/s)</string>
+    <string name="network_traffic_arrow">Okları göster</string>
+    <string name="network_traffic_arrow_summary">Ağ trafiği göstergesi oklarını göster</string>
+    <string name="network_traffic_type">İnternet etkinlik türü seç</string>
+    <string name="show_network_traffic_combined">Birlikte (Yükleme + İndirme)</string>
+    <string name="show_network_traffic_dynamic">Dinamik</string>
+    <string name="show_network_traffic_up">Yükle</string>
+    <string name="show_network_traffic_down">İndir</string>
+    <string name="show_network_traffic_all">İkisi de</string>
+    <string name="nettraf_font_size">Tek net yazı tipi boyutu</string>
 </resources>
