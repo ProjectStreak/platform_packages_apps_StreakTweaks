@@ -2,9 +2,43 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Streak Tweaks title -->
     <!-- Categories -->
+    <string name="themes_title">Temi</string>
+    <string name="statusbar_title">Barra di stato</string>
+    <string name="lockscreen_title">Schermata di blocco</string>
+    <string name="misc_title">Extra</string>
     <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Resetta</string>
+    <string name="cancel">Annulla</string>
+    <string name="save">Salva</string>
     <!-- Statusbar items -->
+    <string name="statusbar_items_category">Elementi barra di stato</string>
     <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Stile del font</string>
+    <string name="theme_customization_font_summary">Imposta lo stile del font di sistema</string>
+    <string name="theme_customization_icon_pack_title">Pacchetto icone</string>
+    <string name="theme_customization_icon_pack_summary">Imposta un pacchetto di icone personalizzato</string>
+    <string name="theme_customization_icon_shape_title">Forma delle icone</string>
+    <string name="theme_customization_icon_shape_summary">Imposta lo stile della forma dell\'icona di sistema</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Icona 4G</string>
+    <string name="show_fourg_icon_summary">Mostra 4G invece di LTE nell\'icona del segnale</string>
     <!-- Statusbar net monitor -->
+    <string name="traffic_title">Indicatori di Traffico</string>
+    <string name="network_traffic">Traffico di rete</string>
+    <string name="network_traffic_state_title">Indicatore di traffico di rete</string>
+    <string name="network_traffic_location">Posizione dell\'indicatore di traffico</string>
+    <string name="traffic_disabled">Disabilitato</string>
+    <string name="traffic_statusbar">Barra di stato</string>
+    <string name="traffic_expanded_statusbar">Espandi intestazione</string>
+    <string name="network_traffic_autohide_threshold_title">Soglia alla quale nascondere l\'attività di rete (KB/s)</string>
+    <string name="network_traffic_arrow">Mostra le frecce</string>
+    <string name="network_traffic_arrow_summary">Mostra le frecce dell\'indicatore di traffico di rete</string>
+    <string name="network_traffic_type">Seleziona il tipo di attività di rete</string>
+    <string name="show_network_traffic_combined">Combinato (upload + download)</string>
+    <string name="show_network_traffic_dynamic">Dinamico</string>
+    <string name="show_network_traffic_up">Carica</string>
+    <string name="show_network_traffic_down">Scarica</string>
+    <string name="show_network_traffic_all">Entrambi</string>
+    <string name="nettraf_font_size">Dimensione carattere rete singola</string>
 </resources>
