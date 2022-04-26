@@ -41,4 +41,5 @@
     <string name="show_network_traffic_down">Scarica</string>
     <string name="show_network_traffic_all">Entrambi</string>
     <string name="nettraf_font_size">Dimensione carattere rete singola</string>
+    <!-- Incall vibrate options -->
 </resources>
