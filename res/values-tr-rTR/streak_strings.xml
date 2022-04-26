@@ -41,4 +41,5 @@
     <string name="show_network_traffic_down">İndir</string>
     <string name="show_network_traffic_all">İkisi de</string>
     <string name="nettraf_font_size">Tek net yazı tipi boyutu</string>
+    <!-- Incall vibrate options -->
 </resources>
