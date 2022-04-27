@@ -24,5 +24,22 @@
     <string name="show_fourg_icon_title">Ikona 4G</string>
     <string name="show_fourg_icon_summary">Wyświetlaj ikonę 4G zamiast LTE</string>
     <!-- Statusbar net monitor -->
+    <string name="traffic_title">Wskaźnik ruchu sieciowego</string>
+    <string name="network_traffic">Ruch sieciowy</string>
+    <string name="traffic_disabled">Wyłączony</string>
+    <string name="traffic_statusbar">Pasek stanu</string>
+    <string name="network_traffic_autohide_threshold_title">Próg automatycznego ukrywania wskaźnika aktywności sieci (KB/s)</string>
+    <string name="network_traffic_arrow">Pokaż strzałki</string>
+    <string name="network_traffic_type">Wybierz typ aktywności sieci</string>
+    <string name="show_network_traffic_combined">Połączone (Wysyłanie + Pobieranie)</string>
+    <string name="show_network_traffic_dynamic">Dynamicznie</string>
+    <string name="show_network_traffic_up">Wysyłanie</string>
+    <string name="show_network_traffic_down">Pobieranie</string>
+    <string name="show_network_traffic_all">Obydwa</string>
+    <string name="nettraf_font_size">Wielkość czcionki ruchu sieciowego</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opcji wibracji w trakcie rozmowy</string>
+    <string name="incall_vibrate_connect_title">Wibracja przy połączeniu</string>
+    <string name="incall_vibrate_call_wait_title">Wibracja przy połączeniu oczekującym</string>
+    <string name="incall_vibrate_disconnect_title">Wibracje przy rozłączeniu</string>
 </resources>
