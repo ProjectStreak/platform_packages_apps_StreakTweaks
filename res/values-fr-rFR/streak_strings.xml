@@ -2,9 +2,37 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Streak Tweaks title -->
     <!-- Categories -->
+    <string name="themes_title">Thèmes</string>
+    <string name="statusbar_title">Barre d\'état</string>
+    <string name="lockscreen_title">Ecran de vérouillage</string>
+    <string name="misc_title">Divers</string>
     <!-- General strings -->
+    <string name="ok">Ok</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Enregistrer</string>
     <!-- Statusbar items -->
+    <string name="statusbar_items_category">Éléments de la barre d\'État</string>
     <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Style de police</string>
+    <string name="theme_customization_font_summary">Définir le style de la police système</string>
+    <string name="theme_customization_icon_pack_title">Pack d\'icônes</string>
+    <string name="theme_customization_icon_pack_summary">Définir le style du pack d\'icônes</string>
+    <string name="theme_customization_icon_shape_title">Apparence des icônes</string>
+    <string name="theme_customization_icon_shape_summary">Définir le style des icônes système</string>
     <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Icône 4G</string>
+    <string name="show_fourg_icon_summary">Afficher l\'icône 4G au lieu de l\'icône LTE dans l\'icône signal</string>
     <!-- Statusbar net monitor -->
+    <string name="traffic_title">Indicateurs traffic réseau</string>
+    <string name="network_traffic">Trafic réseau</string>
+    <string name="network_traffic_state_title">Affichage du trafique réseau</string>
+    <string name="network_traffic_location">Position de l’indicateur de trafique</string>
+    <string name="traffic_disabled">Désactivé</string>
+    <string name="traffic_statusbar">Barre d\'état</string>
+    <string name="traffic_expanded_statusbar">En-tête étendue</string>
+    <string name="network_traffic_autohide_threshold_title">Masquer automatiquement à partir d\'un certain débit Internet (en KB/s)</string>
+    <string name="network_traffic_arrow">Afficher les flèches</string>
+    <string name="network_traffic_arrow_summary">Afficher les flèches de l\'indicateur de trafic réseau </string>
+    <!-- Incall vibrate options -->
 </resources>
