@@ -31,13 +31,12 @@
         android:fragment="com.streak.tweaks.fragments.StatusbarSettings"
         android:icon="@drawable/ic_settings_statusbar"/>
 
-    <!-- Lockscreen
+    <!-- Lockscreen  -->
     <Preference
         android:key="lockscreen_category"
         android:title="@string/lockscreen_title"
         android:fragment="com.streak.tweaks.fragments.LockscreenSettings"
         android:icon="@drawable/ic_settings_lockscreen"/>
-    -->
 
     <!-- Misc
     <Preference
