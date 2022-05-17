@@ -42,4 +42,6 @@
     <string name="show_network_traffic_all">Entrambi</string>
     <string name="nettraf_font_size">Dimensione carattere rete singola</string>
     <!-- Incall vibrate options -->
+    <!-- Wifi/Bluetooth auto timeout -->
+    <!-- Keyguard force small clock -->
 </resources>
