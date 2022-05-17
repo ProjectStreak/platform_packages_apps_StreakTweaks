@@ -36,4 +36,11 @@
         android:key="traffic"
         android:title="@string/traffic_title"
         android:fragment="com.streak.tweaks.fragments.Traffic" />
+
+    <!-- Combined signal icons -->
+    <com.streak.support.preferences.SecureSettingSwitchPreference
+        android:key="show_combined_status_bar_signal_icons"
+        android:title="@string/combined_status_bar_signal_icons"
+        android:summary="@string/combined_status_bar_signal_icons_summary"
+        android:defaultValue="false" />
 </PreferenceScreen>
