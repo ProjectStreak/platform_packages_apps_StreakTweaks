@@ -46,4 +46,6 @@
     <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
     <string name="incall_vibrate_call_wait_title">Çağrı beklerken titret</string>
     <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titre</string>
+    <!-- Wifi/Bluetooth auto timeout -->
+    <!-- Keyguard force small clock -->
 </resources>
