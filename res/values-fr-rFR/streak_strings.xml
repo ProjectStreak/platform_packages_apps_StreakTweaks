@@ -34,5 +34,18 @@
     <string name="network_traffic_autohide_threshold_title">Masquer automatiquement à partir d\'un certain débit Internet (en KB/s)</string>
     <string name="network_traffic_arrow">Afficher les flèches</string>
     <string name="network_traffic_arrow_summary">Afficher les flèches de l\'indicateur de trafic réseau </string>
+    <string name="network_traffic_type">Sélectionnez le type d\'activité réseau</string>
+    <string name="show_network_traffic_combined">Combiné (Envoi + Téléchargement)</string>
+    <string name="show_network_traffic_dynamic">Dynamique</string>
+    <string name="show_network_traffic_up">Télécharger</string>
+    <string name="show_network_traffic_down">Télécharger</string>
+    <string name="show_network_traffic_all">Tous les deux</string>
+    <string name="nettraf_font_size">Taille de la police </string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Options de vibration en cours d\'appel</string>
+    <string name="incall_vibrate_connect_title">Vibrer à la connexion</string>
+    <string name="incall_vibrate_call_wait_title">Vibrer sur un appel en attente</string>
+    <string name="incall_vibrate_disconnect_title">Vibrer lors de la fin de l\'appel</string>
+    <!-- Keyguard force small clock -->
+    <!-- Combined signal icons in status bar -->
 </resources>

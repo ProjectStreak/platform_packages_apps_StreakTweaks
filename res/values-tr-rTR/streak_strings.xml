@@ -42,4 +42,10 @@
     <string name="show_network_traffic_all">İkisi de</string>
     <string name="nettraf_font_size">Tek net yazı tipi boyutu</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Arama titreşimi seçenekleri</string>
+    <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
+    <string name="incall_vibrate_call_wait_title">Çağrı beklerken titret</string>
+    <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titre</string>
+    <!-- Keyguard force small clock -->
+    <!-- Combined signal icons in status bar -->
 </resources>
