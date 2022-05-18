@@ -26,10 +26,14 @@
     <!-- Statusbar net monitor -->
     <string name="traffic_title">Wskaźnik ruchu sieciowego</string>
     <string name="network_traffic">Ruch sieciowy</string>
+    <string name="network_traffic_state_title">Wskaźnik ruchu sieci</string>
+    <string name="network_traffic_location">Położenie wskaźnika ruchu</string>
     <string name="traffic_disabled">Wyłączony</string>
     <string name="traffic_statusbar">Pasek stanu</string>
+    <string name="traffic_expanded_statusbar">Rozszerzony nagłówek</string>
     <string name="network_traffic_autohide_threshold_title">Próg automatycznego ukrywania wskaźnika aktywności sieci (KB/s)</string>
     <string name="network_traffic_arrow">Pokaż strzałki</string>
+    <string name="network_traffic_arrow_summary">Pokaż strzałki wskaźnika ruchu sieciowego</string>
     <string name="network_traffic_type">Wybierz typ aktywności sieci</string>
     <string name="show_network_traffic_combined">Połączone (Wysyłanie + Pobieranie)</string>
     <string name="show_network_traffic_dynamic">Dynamicznie</string>
@@ -42,6 +46,10 @@
     <string name="incall_vibrate_connect_title">Wibracja przy połączeniu</string>
     <string name="incall_vibrate_call_wait_title">Wibracja przy połączeniu oczekującym</string>
     <string name="incall_vibrate_disconnect_title">Wibracje przy rozłączeniu</string>
-    <!-- Wifi/Bluetooth auto timeout -->
     <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Wymuś mały zegar na ekranie blokady</string>
+    <string name="lockscreen_small_clock_summary">Nie przełączaj na duży zegar gdy nie ma powiadomień</string>
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons">Połączona ikona sygnału</string>
+    <string name="combined_status_bar_signal_icons_summary">Włącz łączone ikony sygnału na pasku powiadomień.\nWymaga restartu SystemUI</string>
 </resources>
